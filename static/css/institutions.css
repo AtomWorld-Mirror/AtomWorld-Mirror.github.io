@@ -1,0 +1,19 @@
+.institution-logos { --logo-gap: 22px; display: flex; align-items: center; justify-content: center; gap: calc(2 * var(--logo-gap) + 1px); margin: 0 auto 36px; max-width: 960px; }
+.institution-logos a { display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.institution-air { flex: 1 1 0 !important; min-width: 0; }
+.institution-air img { display: block; width: 100%; height: auto; }
+.institution-partners { display: flex; align-items: center; gap: calc(2 * var(--logo-gap) + 1px); }
+.institution-partners a { position: relative; }
+.institution-partners a::before { content: ""; position: absolute; left: calc(-1 * var(--logo-gap) - 1px); width: 1px; height: 30px; background: #cbd5e1; }
+.institution-partners img { display: block; height: 70px; width: auto; max-width: none; }
+.institution-logos a:focus-visible { outline: 2px solid #2860bb; outline-offset: 5px; }
+@media (max-width: 700px) {
+  .institution-logos { --logo-gap: 16px; flex-direction: column; gap: 22px; margin: 0 auto 28px; }
+  .institution-air { width: 100%; max-width: 520px; }
+  .institution-partners a:first-child::before { display: none; }
+  .institution-partners img { height: 52px; }
+}
+@media (max-width: 370px) {
+  .institution-logos { --logo-gap: 12px; }
+  .institution-partners img { height: 46px; }
+}

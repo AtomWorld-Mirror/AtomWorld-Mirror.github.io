@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="{{ page.description }}">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="./static/css/institutions.css?v=2">
+
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+
+  <!-- MathJax -->
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+        displayMath: [ ['$$', '$$'], ['\\[', '\\]'] ],
+        processEscapes: true, 
+        tags: 'all',
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script
+    type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <div class="institution-logos" aria-label="Participating institutions">
+            <a class="institution-air" href="https://air.tsinghua.edu.cn/" aria-label="Tsinghua AIR homepage"><img src="./assets/logos/air.svg" alt="Institute for AI Industry Research, Tsinghua University"></a>
+            <div class="institution-partners">
+              <a href="https://www.yonsei.ac.kr/" aria-label="Yonsei University homepage"><img src="./assets/logos/yonsei.svg" alt="Yonsei University"></a>
+              <a href="https://www.pku.edu.cn/" aria-label="Peking University homepage"><img src="./assets/logos/pku.svg" alt="Peking University"></a>
+              <a href="https://www.ucas.ac.cn/" aria-label="University of Chinese Academy of Sciences homepage"><img src="./assets/logos/ucas.svg" alt="University of Chinese Academy of Sciences"></a>
+              <a href="https://www.ict.ac.cn/" aria-label="Institute of Computing Technology homepage"><img src="./assets/logos/ict.svg" alt="Institute of Computing Technology, Chinese Academy of Sciences"></a>
+            </div>
+          </div>
+
+          <h1 class="title is-1 publication-title">{{ page.title }}</h1>
+          {% if page.authors %}
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              {{ page.authors }}
+            </span>
+          </div>
+          {% endif %}
+
+          {% if page.affiliations %}
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              {{ page.affiliations }}
+            </span>
+          </div>
+          {% endif %}
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              {% if page.paper %}
+              <span class="link-block">
+                <a href="{{ page.paper }}"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              {% endif %}
+              <!-- Video Link. -->
+              {% if page.video %}
+              <span class="link-block">
+                <a href="{{ page.video }}"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              {% endif %}
+              <!-- Code Link. -->
+              {% if page.code %}
+              <span class="link-block">
+                <a href="{{ page.code }}"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              {% endif %}
+              <!-- Dataset Link. -->
+              {% if page.data %}
+              <span class="link-block">
+                <a href="{{ page.data }}"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-database"></i>
+                  </span>
+                  <span>Data</span>
+                </a>
+              </span>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+<div class="container is-max-desktop">
+
+<div class="content">
+  {{ content }}
+</div>
+
+</div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            Website template borrowed from <a href="https://github.com/nerfies/nerfies.github.io">NeRFies</a> and <a href="https://github.com/shunzh/project_website">the Jekyll fork</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
