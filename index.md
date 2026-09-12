@@ -4,7 +4,7 @@ permalink: /
 title: "AtomWorld-Mirror: Macro-Step World Modeling of Critical Evolution Backbones for Materials Dynamics"
 description: "A state-time macro world model for physically constrained long-term materials evolution."
 authors: >-
-  Ziming Pan<sup>1,2,*</sup>,
+  <a href="https://zimingpan.github.io/">Ziming Pan</a><sup>1,2,*</sup>,
   <a href="https://scholar.google.com/citations?user=8PsKswwAAAAJ&amp;hl=en">Ruge Zhang</a><sup>4,5,2,*</sup>,
   <a href="https://haozhihan.github.io/">Haozhi Han</a><sup>3,2,*</sup>,
   <a href="https://cs.pku.edu.cn/info/1210/1960.htm">Yifeng Chen</a><sup>3</sup>,<br>
