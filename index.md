@@ -38,7 +38,7 @@ Atomistic simulation is an important computational tool for understanding long-t
 
 Long-term materials evolution contains many local updates between structurally decisive states. In Cu-rich reactor pressure vessel (RPV) steel, vacancy-mediated atomic exchanges drive the formation of Cu-rich precipitates. The events carrying persistent structural progress appear sparsely and at different positions across microscopic trajectories.
 
-![Key-event positions and cumulative timing](./assets/key-events.webp)
+![Key-event positions and cumulative timing](./assets/key-events.webp?v=20260912)
 
 *Figure 1: Cu-vacancy exchange events within a fixed 1,000-micro-event replay budget. Each row corresponds to a Cu concentration and random seed; the cumulative curves show how key events accumulate over the budget.*
 
@@ -66,7 +66,7 @@ AtomWorld-Mirror learns the **critical evolution backbone**: a sequence of physi
 
 **AtomWorld** provides the simulator-exposed configurations, local event support, and physical clock. **Mirror** learns the corresponding macro-step dynamics. Training segments pair a starting configuration with an endpoint, sparse edit targets, a path summary, and accumulated duration.
 
-![AtomWorld-Mirror architecture](./assets/architecture.webp)
+![AtomWorld-Mirror architecture](./assets/architecture.webp?v=20260912)
 
 *Figure 2: AtomWorld-Mirror architecture. Graph and patch representations feed horizon-conditioned latent dynamics. Sparse edits pass through inventory projection, and the resulting state is reused at the next macro step. Reproduced from Figure 5 of the paper.*
 
@@ -82,7 +82,7 @@ A macro step follows four stages:
 
 Controlled validation against the KMC teacher measures sparse structural changes and expected physical time. Paired segments test endpoint prediction and single-segment duration, while long trajectories measure cumulative changes, cumulative time, and structural fidelity.
 
-![State and time validation](./assets/validation.webp)
+![State and time validation](./assets/validation.webp?v=20260912)
 
 *Figure 3: Structural edits, single-segment expected-time alignment across temperatures, cumulative expected time, and structurally faithful steps over 200 macro segments. Reproduced from Figure 2 of the paper.*
 
@@ -90,7 +90,7 @@ Controlled validation against the KMC teacher measures sparse structural changes
 
 Autonomous model rollouts apply each projected edit to the previous model state. Local KMC probes evaluate the resulting transitions. Ablations measure energy error, reachability violations, inventory violations, time error, and edit error across two Cu concentrations and four temperatures.
 
-![Physical constraint ablations](./assets/ablations.webp)
+![Physical constraint ablations](./assets/ablations.webp?v=20260912)
 
 *Figure 4: Multi-K teacher-probe ablations. Each physical component has a distinct role in maintaining valid state-time transitions. Reproduced from Figure 3 of the paper.*
 
@@ -98,7 +98,7 @@ Autonomous model rollouts apply each projected edit to the previous model state.
 
 A macro step replaces explicit replay of intervening microscopic events with inference on a local candidate patch. The paper reports speedups of 10<sup>3</sup> to 10<sup>4</sup> across its material-system timing diagnostics. The benchmark below compares teacher replay, rate-scaling KMC, superbasin KMC, and AtomWorld-Mirror over lattice sizes and temperatures. Timing includes benchmark orchestration and batched neural inference.
 
-![Inference timing across lattice sizes and temperatures](./assets/speedup.webp)
+![Inference timing across lattice sizes and temperatures](./assets/speedup.webp?v=20260912)
 
 *Figure 5: End-to-end timing diagnostic across lattice sizes and temperatures. See Figure 4 and Appendix D of the paper for benchmark settings and per-system measurements.*
 
