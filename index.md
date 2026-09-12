@@ -5,20 +5,19 @@ title: "AtomWorld-Mirror: Macro-Step World Modeling of Critical Evolution Backbo
 description: "A state-time macro world model for physically constrained long-term materials evolution."
 authors: >-
   Ziming Pan<sup>1,2,*</sup>,
-  <a href="https://scholar.google.com/citations?user=8PsKswwAAAAJ&amp;hl=en">Ruge Zhang</a><sup>1,4,5,*</sup>,
-  <a href="https://haozhihan.github.io/">Haozhi Han</a><sup>1,3,*</sup>,
+  <a href="https://scholar.google.com/citations?user=8PsKswwAAAAJ&amp;hl=en">Ruge Zhang</a><sup>4,5,2,*</sup>,
+  <a href="https://haozhihan.github.io/">Haozhi Han</a><sup>3,2,*</sup>,
   <a href="https://cs.pku.edu.cn/info/1210/1960.htm">Yifeng Chen</a><sup>3</sup>,<br>
   <a href="http://english.ict.cas.cn/people/scien/bln/202303/t20230321_328553.html">Yunquan Zhang</a><sup>4</sup>,
-  <a href="https://air.tsinghua.edu.cn/en/info/1046/1941.htm">Ting Cao</a><sup>1</sup>,
-  <a href="https://air.tsinghua.edu.cn/en/info/1046/1193.htm">Yunxin Liu</a><sup>1</sup>,
-  <a href="https://www.likun.tech/">Kun Li</a><sup>1,†</sup>
+  <a href="https://air.tsinghua.edu.cn/en/info/1046/1941.htm">Ting Cao</a><sup>2</sup>,
+  <a href="https://air.tsinghua.edu.cn/en/info/1046/1193.htm">Yunxin Liu</a><sup>2</sup>,
+  <a href="https://www.likun.tech/">Kun Li</a><sup>2,†</sup>
 affiliations: >-
-  <sup>1</sup> Institute for AI Industry Research (AIR), Tsinghua University<br>
-  <sup>2</sup> Yonsei University<br>
-  <sup>3</sup> School of Computer Science, Peking University<br>
-  <sup>4</sup> Institute of Computing Technology, Chinese Academy of Sciences<br>
-  <sup>5</sup> School of Computer Science and Technology,<br>
-  University of Chinese Academy of Sciences<br>
+  <sup>1</sup> Yonsei University, Seoul, Republic of Korea<br>
+  <sup>2</sup> Institute for AI Industry Research (AIR), Tsinghua University, Beijing, China<br>
+  <sup>3</sup> School of Computer Science, Peking University, Beijing, China<br>
+  <sup>4</sup> Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China<br>
+  <sup>5</sup> School of Computer Science and Technology, University of Chinese Academy of Sciences, Beijing, China<br>
   <small><sup>*</sup> Equal contribution. <sup>†</sup> Corresponding author.</small>
 code: https://github.com/ZimingPAN/AtomWorld-Mirror
 ---
