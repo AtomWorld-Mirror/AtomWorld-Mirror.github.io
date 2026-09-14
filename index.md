@@ -23,7 +23,7 @@ affiliations: >-
   <sup>7</sup> Institute for AI Industry Research (AIR), Tsinghua University, Beijing, China<br>
   <small><sup>*</sup> Equal contribution. <sup>†</sup> Corresponding author.</small><br>
   <em>This work was supported by Tecorigin.</em>
-code: https://github.com/ZimingPAN/AtomWorld-Mirror
+code: https://github.com/RecursiveScienceAIR/AtomWorld-Mirror
 ---
 
 <div class="columns is-centered has-text-centered">
@@ -116,6 +116,6 @@ A macro step replaces explicit replay of intervening microscopic events with inf
           Liu, Yunxin and Li, Kun},
   year={2026},
   howpublished={Project manuscript},
-  url={https://github.com/ZimingPAN/AtomWorld-Mirror}
+  url={https://github.com/RecursiveScienceAIR/AtomWorld-Mirror}
 }
 ```
