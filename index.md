@@ -18,7 +18,7 @@ affiliations: >-
   <sup>2</sup> Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China<br>
   <sup>3</sup> University of Chinese Academy of Sciences, Beijing, China<br>
   <sup>4</sup> School of Computer Science, Peking University, Beijing, China<br>
-  <sup>5</sup> Economics &amp; Technology Research Institute, China National Petroleum Corporation, Beijing, China<br>
+  <sup>5</sup> Economics &amp; Technology Research Institute, CNPC, Beijing, China<br>
   <sup>6</sup> Shenzhen Research Institute of Big Data, Shenzhen, China<br>
   <sup>7</sup> Institute for AI Industry Research (AIR), Tsinghua University, Beijing, China<br>
   <small><sup>*</sup> Equal contribution. <sup>†</sup> Corresponding author.</small><br>
