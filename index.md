@@ -7,9 +7,9 @@ authors: >-
   <a href="https://zimingpan.github.io/"><span>Ziming Pan</span></a><sup>1,7,*</sup>,
   <a href="https://scholar.google.com/citations?user=8PsKswwAAAAJ&amp;hl=en">Ruge Zhang</a><sup>2,3,7,*</sup>,
   <a href="https://haozhihan.github.io/">Haozhi Han</a><sup>4,7,*</sup>,
+  Junkai Zhou<sup>5</sup>, Xingyuan Chen<sup>6</sup>,<br>
   <a href="https://cs.pku.edu.cn/info/1210/1960.htm">Yifeng Chen</a><sup>4</sup>,
-  <a href="http://english.ict.cas.cn/people/scien/bln/202303/t20230321_328553.html">Yunquan Zhang</a><sup>2</sup>,<br>
-  Junkai Zhou<sup>5</sup>, Xingyuan Chen<sup>6</sup>,
+  <a href="http://english.ict.cas.cn/people/scien/bln/202303/t20230321_328553.html">Yunquan Zhang</a><sup>2</sup>,
   <a href="https://air.tsinghua.edu.cn/en/info/1046/1941.htm">Ting Cao</a><sup>7</sup>,
   <a href="https://air.tsinghua.edu.cn/en/info/1046/1193.htm">Yunxin Liu</a><sup>7</sup>, and
   <a href="https://www.likun.tech/">Kun Li</a><sup>7,†</sup>
@@ -112,7 +112,7 @@ A macro step replaces explicit replay of intervening microscopic events with inf
   title={AtomWorld-Mirror: Macro-Step World Modeling of
          Critical Evolution Backbones for Materials Dynamics},
   author={Pan, Ziming and Zhang, Ruge and Han, Haozhi and
-          Chen, Yifeng and Zhang, Yunquan and Cao, Ting and
+          Zhou, Junkai and Chen, Xingyuan and Chen, Yifeng and Zhang, Yunquan and Cao, Ting and
           Liu, Yunxin and Li, Kun},
   year={2026},
   howpublished={Project manuscript},
