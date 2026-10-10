@@ -23,6 +23,7 @@ affiliations: >-
   <sup>7</sup> Institute for AI Industry Research (AIR), Tsinghua University, Beijing, China<br>
   <small><sup>*</sup> Equal contribution. <sup>†</sup> Corresponding author.</small><br>
   <em>This work was supported by Tecorigin.</em>
+paper: https://arxiv.org/abs/2610.11527
 code: https://github.com/RecursiveScienceAIR/AtomWorld-Mirror
 ---
 
@@ -108,14 +109,13 @@ A macro step replaces explicit replay of intervening microscopic events with inf
 ## Citation
 
 ```bibtex
-@misc{pan2026atomworldmirror,
-  title={AtomWorld-Mirror: Macro-Step World Modeling of
-         Critical Evolution Backbones for Materials Dynamics},
-  author={Pan, Ziming and Zhang, Ruge and Han, Haozhi and
-          Zhou, Junkai and Chen, Xingyuan and Chen, Yifeng and Zhang, Yunquan and Cao, Ting and
-          Liu, Yunxin and Li, Kun},
-  year={2026},
-  howpublished={Project manuscript},
-  url={https://github.com/RecursiveScienceAIR/AtomWorld-Mirror}
+@misc{pan2026atomworldmirrormacrostepworldmodeling,
+      title={AtomWorld-Mirror: Macro-Step World Modeling of Critical Evolution Backbones for Materials Dynamics}, 
+      author={Ziming Pan and Ruge Zhang and Haozhi Han and Junkai Zhou and Xingyuan Chen and Yifeng Chen and Yunquan Zhang and Ting Cao and Yunxin Liu and Kun Li},
+      year={2026},
+      eprint={2610.11527},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2610.11527}, 
 }
 ```
