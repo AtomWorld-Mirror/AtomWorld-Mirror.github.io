@@ -29,6 +29,15 @@ code: https://github.com/RecursiveScienceAIR/AtomWorld-Mirror
 
 <div class="columns is-centered has-text-centered">
     <div class="column is-four-fifths">
+        <video autoplay muted loop playsinline controls preload="metadata" poster="./assets/video/poster_en.jpg" style="width: 100%; border-radius: 12px;">
+            <source src="./assets/video/atomworld_mirror_promo_en.webm" type="video/webm">
+            <source src="./assets/video/atomworld_mirror_promo_en.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+
+<div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
         <h2>Abstract</h2>
         <div class="content has-text-justified">
 Atomistic simulation is a fundamental tool for studying long-term materials evolution, from diffusion and defect dynamics to interfacial reactions and fracture. Yet conventional simulators typically advance at microscopic resolution, spending substantial computation on low-impact local updates before reaching structurally consequential states—an evolutionary-resolution bottleneck that limits long-horizon simulation. We propose AtomWorld-Mirror, a time-aware macro-step world model for the critical evolution backbone of atomic systems. For Step-Wise atomistic simulation, AtomWorld-Mirror distills short micro-event segments into physically reachable transitions between key states, jointly predicting sparse structural edits and accumulated physical time through latent macro-step dynamics. Local reachability, inventory conservation, and continuous-time consistency constrain each transition. By amortizing local atomic physics into a reusable latent macro model and replacing explicit micro-event replay with macro-step inference, this formulation provides a path toward substantially faster prediction of long-term materials evolution while preserving structural validity and time semantics. Across five atomic systems, spanning Cu-rich RPV steel irradiation aging, Cu–Zr metallic glass, and Li<sub>3</sub>N-based anti-perovskite solid electrolyte, macro-step inference delivers a speed up of 10<sup>3</sup> to 10<sup>4</sup> times over event-by-event simulation.
