@@ -27,7 +27,7 @@ paper: https://arxiv.org/abs/2610.11527
 code: https://github.com/RecursiveScienceAIR/AtomWorld-Mirror
 ---
 
-<div class="columns is-centered has-text-centered">
+<div class="columns is-centered has-text-centered" style="margin-top: -80px;">
     <div class="column is-four-fifths">
         <video autoplay muted loop playsinline controls preload="metadata" poster="./assets/video/poster_en.jpg" style="width: 100%; border-radius: 12px;">
             <source src="./assets/video/atomworld_mirror_promo_en.webm" type="video/webm">
